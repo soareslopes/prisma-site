@@ -11,14 +11,12 @@ const partners = [
   { name: 'BID', full: 'Inter-American Development Bank' },
 ]
 
-const W = 'w-[80%] max-w-[1400px] mx-auto'
-
 export default function Footer() {
   return (
     <footer style={{ backgroundColor: '#0A0F1E' }}>
       {/* Partners strip */}
       <div className="border-b" style={{ borderColor: 'rgba(255,255,255,0.07)' }}>
-        <div className={`${W} py-12`}>
+        <div className="w80 py-12">
           <p className="text-[11px] font-medium tracking-[0.14em] uppercase mb-7" style={{ color: 'rgba(255,255,255,0.35)' }}>
             Collaborators & Partners
           </p>
@@ -38,7 +36,7 @@ export default function Footer() {
       </div>
 
       {/* Main footer */}
-      <div className={`${W} py-16`}>
+      <div className="w80 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-14">
           {/* Brand */}
           <div className="md:col-span-2">

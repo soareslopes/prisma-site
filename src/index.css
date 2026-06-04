@@ -40,6 +40,14 @@ body {
   min-height: 100vh;
 }
 
+/* 80% centered container — applied to every page section and the header */
+.w80 {
+  width: 80%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .leaflet-container {
   width: 100%;
   height: 100%;
